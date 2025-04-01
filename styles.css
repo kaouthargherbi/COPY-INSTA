@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+}
+
+.language {
+    color: #8C7F7F;
+    margin-top: -10;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.facebook-btn {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.facebook-btn img {
+    width: 20px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.separator::before,
+.separator::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #332D2D;
+}
+
+.separator span {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    background-color: #222;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    text-align: right;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #0095f6;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.login-btn {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.signup-text {
+    font-size: 14px;
+}
+
+.signup-text a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.meta-logo {
+    width: 100px;
+    margin-top: 20px;
+}
