@@ -48,7 +48,7 @@ body {
     color: white;
     border: none;
     padding: 8px;
-    width: 80%;
+    width: 82%;
     margin: 10px auto;
     border-radius: 8px;
     font-size: 14px;
@@ -97,10 +97,10 @@ form {
 
 input {
                 color: #fff;
-    background-color: #222;
+    background-color: #181717;
     border: 0.3px solid #8C7F7F;
     padding: 8px;
-    width: 80%;
+    width: 82%;
     margin: 0.5px auto;
     border-radius: 5px;
     font-size: 10px;
@@ -129,7 +129,7 @@ input {
     color: white;
     border: none;
     padding: 8px;
-    width: 80%;
+    width: 82%;
     margin: 15px auto;
     border-radius: 8px;
     font-size: 14px;
