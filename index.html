@@ -7,43 +7,41 @@
     <title>تسجيل الدخول - إنستجرام</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-       footer {
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    font-size: 1vw; /* استخدام وحدة مرنة لحجم الخط */
-    position: relative; /* تم التعديل إلى relative بدلاً من absolute */
-    margin: 10vh 0; /* استخدام وحدة مرنة للهامش */
-    padding: 20px 0; /* إضافة بعض التوسيع لإعطاء مساحة كافية */
-}
+        footer {
+            text-align: center;
+            background-color: #000;
+            /* خلفية سوداء */
+            color: #fff;
+            /* لون النص أبيض */
+            font-size: 12px;
+            position: absolute;
+            margin: 150px;
+            transform: translateX(-50px);
+        }
 
-footer p {
-    margin: 0;
-    color: #8C7F7F;
-}
+        footer p {
 
-footer a {
-    margin: 5px; /* الهامش أقل لتكون العناصر قريبة من بعضها */
-    color: #8C7F7F;
-    text-decoration: none;
-}
+            margin: 0px 0;
+            color: #8C7F7F;
 
-footer a:hover {
-    color: #8C7F7F;
-    text-decoration: underline;
-}
+        }
 
-/* تخصيصات للهواتف والشاشات الصغيرة */
-@media (max-width: 768px) {
-    footer {
-        font-size: 4vw; /* تغيير حجم الخط للهواتف */
-        margin: 5vh 0; /* تقليل الهامش ليكون أكثر مرونة */
-    }
+        footer a {
 
-    footer a {
-        margin: 2px; /* تقليل المسافة بين الروابط */
-    }
-}
+            margin: 100px 0;
+            color: #8C7F7F;
+            /* لون الروابط رمادي */
+            text-decoration: none;
+            /* إزالة التسطير */
+            margin: 0 5px;
+
+        }
+
+        footer a:hover {
+            color: #8C7F7F;
+            /* تغيير اللون عند المرور */
+            text-decoration: underline;
+        }
     </style>
 
 </head>
@@ -94,3 +92,5 @@ footer a:hover {
 </body>
 
 </html>
+  
+
