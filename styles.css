@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #000000;
     color: white;
     display: flex;
     justify-content: center;
@@ -24,29 +24,40 @@ body {
 
 .language {
     color: #8C7F7F;
-    margin-top: -10;
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 12px;
+    position: absolute;
+    /* أو fixed إذا كنت تريدها تبقى ثابتة عند التمرير */
+    top: 10px;
+    /* المسافة من الأعلى */
+    left: 50%;
+    /* محاذاة للوسط */
+    transform: translateX(-50%);
+    /* لضبط التوسيط الأفقي */
+    margin: 0;
 }
 
 .logo {
-    width: 180px;
-    margin-bottom: 20px;
+    width: 190px;
+    margin-top: -60px;
+
+
 }
 
 .facebook-btn {
     background-color: #1877f2;
     color: white;
     border: none;
-    padding: 12px;
-    width: 100%;
-    border-radius: 5px;
-    font-size: 16px;
+    padding: 8px;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 8px;
+    font-size: 14px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
+    margin-top: -15;
 }
 
 .facebook-btn img {
@@ -57,37 +68,49 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 15px 0;
+    margin: 25px 0;
 }
 
 .separator::before,
 .separator::after {
     content: "";
-    flex: 1;
+    flex: 0.32;
     height: 1px;
     background-color: #332D2D;
+    width: 100px;
+    margin: auto;
 }
 
 .separator span {
     padding: 0 10px;
-    font-size: 14px;
+    font-size: 10px;
+    color: #8C7F7F;
+
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
 }
 
 input {
     background-color: #222;
-    border: none;
-    padding: 12px;
-    width: 100%;
+    border: 0.3px solid #8C7F7F;
+    padding: 8px;
+    width: 80%;
+    margin: 0.5px auto;
     border-radius: 5px;
-    color: white;
-    font-size: 14px;
+    font-size: 10px;
+    font-weight: bold;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: -7px;
     text-align: right;
+
 }
 
 .forgot-password {
@@ -96,28 +119,42 @@ input {
     text-decoration: none;
     margin-bottom: 10px;
     text-align: left;
+    margin-left: 2.5pc;
+    margin-right: auto;
 }
 
 .login-btn {
     background-color: #0095f6;
     color: white;
     border: none;
-    padding: 12px;
-    width: 100%;
-    border-radius: 5px;
-    font-size: 16px;
+    padding: 8px;
+    width: 80%;
+    margin: 15px auto;
+    border-radius: 8px;
+    font-size: 14px;
     font-weight: bold;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: -15;
+
 }
 
 .signup-text {
-    font-size: 14px;
+    font-size: 11px;
+    margin-top: 20px;
+    color: #8C7F7F;
+
+
 }
 
 .signup-text a {
     color: #0095f6;
     text-decoration: none;
     font-weight: bold;
+    margin: 20px 0;
+
 }
 
 .meta-logo {
